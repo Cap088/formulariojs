@@ -27,6 +27,8 @@ function mostrarInputs(){
 
     if(tyc == false){
         alert("Por favor acepta los terminos...")
+    }else{
+        alert("Gracias por diligenciar el formulario correctamente " + nombre + " " + apellido);
     }
 
      //visualizador de ingresos
@@ -36,6 +38,8 @@ function mostrarInputs(){
      console.log(tyc);
 
     return false;
+
+    
 
 
 }

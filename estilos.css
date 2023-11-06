@@ -21,6 +21,9 @@ h1{
     margin-top: 40px;
 }
 
+.nombre2{
+    padding-top: 30px;
+}
 
 .form-control_form_imput{
     border-bottom: 1px solid rgb(27, 27, 24);
@@ -65,20 +68,19 @@ justify-content: left;
     width: 500px;
 }
 
-footer{
+
+footer {
     display: flex;
-    justify-content: left;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 280px;
-    float: inline-start;
-    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
 
 footer p{
     font-family: cursive;
     color: #353434;
-    
-    }
+}
 
 a{
     color: #353434;
@@ -89,3 +91,4 @@ a{
     padding-left: 10px;
     margin-left: 10px;
 }
+
