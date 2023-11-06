@@ -22,7 +22,7 @@ function mostrarInputs(){
     
 
    if(resultado == 0){
-        alert("Por favor seleciona el sexo...")
+        alert("Por favor selecciona el sexo...")
    }
 
     if(tyc == false){
@@ -38,8 +38,4 @@ function mostrarInputs(){
      console.log(tyc);
 
     return false;
-
-    
-
-
 }
